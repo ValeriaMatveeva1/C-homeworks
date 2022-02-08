@@ -32,6 +32,5 @@ int main()
     scanf("%lf", &h_cm);
     to_inches(h_cm);
 
-
     return 0;
 }
