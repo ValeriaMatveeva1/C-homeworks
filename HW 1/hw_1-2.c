@@ -19,15 +19,15 @@ void to_inches(double height_cm) {
 
 int main()
 {
-    int a;
+    int a; // 1
     printf("Enter your age as integer number: ");
     scanf("%d", &a);
     age_in_days(a);
 
-    int toes = 10;
+    int toes = 10; // 2
     toes_values(toes);
 
-    double h_cm;
+    double h_cm; // 3
     printf("Enter your height in cm: ");
     scanf("%lf", &h_cm);
     to_inches(h_cm);
