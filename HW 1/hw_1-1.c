@@ -2,7 +2,7 @@
 
 // 1. Расчеm среднего арифметического пяти целых значений, введенных с клавиатуры
 void average_of_five_nums(int a, int b, int c, int d, int e) {
-    printf("The average of these numbers : %lf .\n", (a + b + c + d + e) / 5.0);
+    printf("The average of these numbers: %lf .\n", (a + b + c + d + e) / 5.0);
 }
 
 // 2. Определитель четности/нечетности числа, введенного с клавиатуры
@@ -21,39 +21,39 @@ void sum_to_num(int num) {
     sum += i;
     i++;
     }
-    printf("The sum of integers from 1 to %d : %d . \n", num, sum);
+    printf("The sum of integers from 1 to %d: %d.\n", num, sum);
 }
 
 //4. Расчет x в степени y с помощью оператора while
 void x_in_power_of_y(int x, int y) {
     int res = 1;
-    int pow = y;
+    int power = y;
     while (y != 0) {
     res *= x;
     y--;
     }
-    printf("%d to the %d power: %d .\n", x, pow, res);
+    printf("%d to the %d power: %d.\n", x, power, res);
 }
 
 
 int main() {
     int a, b, c, d,e; // 1
-    printf("Enter 5 numbers : ");
+    printf("Enter 5 numbers: ");
     scanf("%d %d %d %d %d", &a, &b, &c, &d, &e);
     average_of_five_nums(a, b, c, d, e);
 
     int k; // 2
-    printf("Enter an integer number : ");
+    printf("Enter an integer number: ");
     scanf("%d", &k);
     odd_or_even(k);
 
     int n; // 3
-    printf("Enter an integer number : ");
+    printf("Enter an integer number: ");
     scanf("%d", &n);
     sum_to_num(n);
 
     int x, y; // 4
-    printf("Enter 2 numbers (and i'll give you x^y) : ");
+    printf("Enter 2 numbers (and i'll give you x^y): ");
     scanf("%d %d", &x, &y);
     x_in_power_of_y(x, y);
 
