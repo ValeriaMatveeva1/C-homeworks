@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// 1. Рассчеm среднего арифметического пяти целых значений, введенных с клавиатуры
+// 1. Расчеm среднего арифметического пяти целых значений, введенных с клавиатуры
 void average_of_five_nums(int a, int b, int c, int d, int e) {
     printf("The average of these numbers : %lf .\n", (a + b + c + d + e) / 5.0);
 }
@@ -24,7 +24,7 @@ void sum_to_num(int num) {
     printf("The sum of integers from 1 to %d : %d . \n", num, sum);
 }
 
-//4. Рассчет x в степени y с помощью оператора while
+//4. Расчет x в степени y с помощью оператора while
 void x_in_power_of_y(int x, int y) {
     int res = 1;
     int pow = y;
