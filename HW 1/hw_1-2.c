@@ -12,7 +12,7 @@ void toes_values(int toes) {
 
 // 3. Перевод роста user'a из сантиметров в дюймы
 void to_inches(double height_cm) {
-    double height_in = height_cm*2.54;
+    double height_in = height_cm/2.54;
     printf("Your height in cm: %lf;\nYour height in inches: %lf.\n", height_cm, height_in);
 }
 
@@ -31,6 +31,7 @@ int main()
     printf("Enter your height in cm: ");
     scanf("%lf", &h_cm);
     to_inches(h_cm);
+
 
     return 0;
 }
