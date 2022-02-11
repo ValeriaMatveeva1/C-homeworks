@@ -15,8 +15,11 @@ void sum(int n) {
 int main() {
     int a;
     printf("Enter a number of numbers to sum: ");
-    scanf("%d", &a);
-    sum(a);
-    
+    if (scanf("%d", &a) == 1) { // проверка на правильность вводимого аргумента
+        sum(a);
+    } else {
+        printf("Not an allowed type!\n");
+    }
+
     return 0;
 }
