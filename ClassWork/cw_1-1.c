@@ -340,7 +340,7 @@ void more_similar() {
         max_c = c;
         max_i = i - c + 1;
     }
-    printf("Index of element, beginning the most long sequence of similar numbers: %d\n", max_i);
+    printf("Index of element, beginning the longest sequence of similar numbers: %d\n", max_i);
     printf("Amount of numbers in this sequence: %d", max_c);
 }
 
@@ -375,7 +375,7 @@ int main() {
     // max_even(); // 1.6
     // lengths_of_even_odd(); // 1.7
     // amount_increasing(); // 1.8
-    more_similar();
+    more_similar(); // 1.9
 
 
     return 0;
